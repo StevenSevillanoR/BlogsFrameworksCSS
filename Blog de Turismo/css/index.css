@@ -1,5 +1,5 @@
 body{
-  background-image: url(../img/bg.png);
+  background-image: url(../img/bg1.png);
   background-attachment: fixed;
 }
 h5{
@@ -10,6 +10,25 @@ input, textarea{
 }
 .input-field label{
   color: #fff;
+}
+input:not([type]):focus:not([readonly]),
+input[type=text]:focus:not([readonly]),
+input[type=email]:focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid gold;
+  box-shadow: 0 1px 0 0 gold;
+}
+input:not([type]):focus:not([readonly]) + label,
+input[type=text]:focus:not([readonly]) + label,
+input[type=email]:focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label {
+  color: gold;
+}
+input:not([type]),
+input[type=text],
+input[type=email],
+textarea.materialize-textarea{
+  border-bottom: 1px solid #fff;
 }
 .input-field i{
   color: #fff;
@@ -117,6 +136,16 @@ input, textarea{
 }
 .btn-large{
   padding: 0 7.5px; 
+}
+.btn, .btn-large, .btn-small {
+  text-decoration: none;
+  color: #fff;
+  background-color: #000;
+}
+
+.btn:hover, .btn-large:hover, .btn-small:hover {
+  background-color: #0C0C0C;
+  color: gold !important;
 }
 .entrada{
   background-color: #e8eaf6;
