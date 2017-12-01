@@ -1,0 +1,178 @@
+body{
+  background-image: url(../img/bg.png);
+  background-attachment: fixed;
+}
+h5{
+  margin-top: 0px;
+}
+input, textarea{
+  color: #fff;
+}
+.input-field label{
+  color: #fff;
+}
+.input-field i{
+  color: #fff;
+}
+.input-field i:hover{
+  color: gold;
+}
+.input-field i:focus{
+  color: gold !important;
+}
+.input-field .prefix.active {
+  color: gold;
+}
+.barra-superior{
+  margin-bottom: 0px !important;
+}
+.eslogan{
+  padding-top: 10%;
+  margin-bottom: 0px;
+}
+.text-eslogan{
+  font-weight: bold;
+  text-shadow: 2px 2px #000;
+  color: #fff;
+}
+.navegacion{
+  padding-top: 10px !important;
+  padding-right: 5px !important;
+  padding-left: 5px !important;
+}
+.encabezado{
+  background-color: transparent;
+	min-height: 4rem;
+  padding-left: 0px !important;
+  padding-right: 0px !important; 
+}
+.grupo{
+  min-height: 50rem;
+  padding: 0px !important;
+}
+.chat{
+	max-height: 25rem;
+  overflow: scroll;
+}
+.cuerpo-noticias{
+  min-height: 50rem;
+  padding: 0px !important;
+}
+.nueva-pub{
+  min-height: 7rem;
+}
+.publicaciones{
+  min-height: 17rem;
+}
+.logo{
+  padding-right: 0px !important;
+}
+.logo-img{
+  width: 100%;
+  margin-top: 1rem;
+  float: right !important;
+}
+.buscar{
+  float: left !important;
+}
+.noticias{
+  min-height: 50rem;
+  padding: 0.5rem !important;
+  margin-top: 1rem;
+}
+.img-noticia{
+  border-radius: 5px;
+  border: 0.6rem solid #b2ebf2;
+}
+.botones-redsocial {
+  background-color: #000;
+  color: none !important;
+  padding: 0px !important;
+  width: 100%;
+  height: 100%;
+  padding: 0px !important;
+  border-radius: 5px;
+}
+.botones-redsocial:hover{
+  color: #fff !important;
+}
+.redes-sociales{
+  text-align: center;
+  width: 100%;
+}
+.instagram:hover{
+  background-image: url("../img/fondo-instagram.png");
+  background-size: 100% 100%;
+  color: #fff !important;
+}
+.actividad-reciente{
+  padding-left: 1rem !important;
+}
+.element-group{
+  padding-left: 0px !important;
+}
+.boton-flotante{
+  bottom: 45px;
+  right: 90vw;
+}
+.btn-large{
+  padding: 0 7.5px; 
+}
+.entrada{
+  background-color: #e8eaf6;
+  padding: 10px;
+}
+.img-entrada{
+  width: 100%;
+}
+.text-entrada{
+  text-align: justify;
+  vertical-align: text-top;
+}
+.comentarios{
+  background-color: #000;
+  padding: 10px;
+}
+.perfil{
+  opacity: 0.9;
+}
+.img-perfil{
+  width: 80%;
+  padding: 10px;
+}
+@media(max-width: 350px){
+  h4{
+    font-size: 25px !important;
+  }
+}
+@media(min-width: 600px) and (max-width: 799px){
+  .botones-redsocial {
+    width: 100%;
+    height: 39px;
+  }
+}
+@media(min-width: 800px){
+  .botones-redsocial {
+    width: 100%;
+    height: 61px;
+  }
+  .botones-redsocial i{
+    padding-top: 10px;
+  }
+}
+i.left{
+  margin-right: 6px;
+}
+.btn-small{
+  border: none;
+  border-radius: 2px;
+  display: inline-block;
+  height: 36px;
+  line-height: 36px;
+  outline: 0;
+  padding: 0 8px;
+  font-size: 10px;
+  text-transform: capitalize;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+}

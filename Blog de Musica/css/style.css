@@ -1,0 +1,157 @@
+body{
+	background-color: white;
+}
+.contenedor{
+	position: relative;
+	width: 90%;
+	margin-left: 5%;
+}
+.logo-img{
+	margin-top: 5px;
+	width: 200px;
+	height: 100px;
+	text-align: left;
+}
+.navegacion{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.item-navegacion{
+	color: black;
+	padding: 0px !important;
+}
+.navbar-inverse {
+  background: black;
+  opacity: 0.9;
+  min-height: 10%;
+  border: none;
+  margin-bottom: 0px !important;
+}
+.img-social{
+	width: 10%;
+	height: 10%;
+}
+.contenedor-social{
+	bottom: 5px;
+	margin-top: 100px;
+}
+.btn-item{
+	width: 99%;
+	height: 45px;
+	opacity: 0.95;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	font-size: 20px !important;
+}
+.btn-item:focus,
+.btn-item.focus
+{
+  color: #000;
+  background-color: #fff9c4 !important;
+  border-color: #fdd835 !important;
+}
+.btn-item:hover {
+  color: #000;
+  background-color: #fff9c4;
+  border-color: #fdd835 !important;
+}
+.contenido{
+	background-color: white;
+	border-radius: 4px;
+	margin: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#img-izq{
+	padding-right: 0px;
+}
+#img-der{
+	padding-left: 0px;
+}
+.contenido-articulos{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.contenedor-contenido{
+	background-color: #eeeeee;
+	margin-left: 0px;
+	margin-right: 0px;
+	border-radius: 4px;
+}
+.img-contenido{
+	width: 100%;
+	max-height: 100%;
+}
+.img-comentario{
+	width: 100%;
+	height: 30px;
+}
+.comentarios{
+	padding-top: 10px;
+}
+.logo-comentarios{
+	padding-right: 0px !important;
+}
+h1{
+	padding-left: 15px !important;
+	padding-right: 15px;
+}
+
+nav{
+	color: white;
+	font-size: 25px;
+}
+.contenedor-buscar{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.img-buscar{
+	width: 25px;
+}
+.logo-buscar{
+	padding-top: 5px;
+	padding-left: 3px;
+	padding-right: 1px;
+}
+.texto-buscar{
+	padding-right: 0px;
+	padding-left: 0px; 
+}
+.buscar{
+	padding-right: 0px;
+}
+.contenedor-der{
+	padding-left: 0px;
+	padding-right: 10px
+}
+@media (max-width: 767px){
+	.contenedor{
+		position: relative;
+		width: 100%;
+		margin-left: 0%;
+	}
+	div[class^=contenedor]{
+		text-align: center;
+	}
+	.logo-img{
+		text-align: left !important;
+		margin-top: 5px;
+		width: 200px;
+		height: 100px;
+	}
+	.contenedor-social{
+		bottom: 5px;
+		margin-top: 10px;
+	}
+	.img-social{
+		width: 5%;
+		height: 5%;
+	}
+	#img-izq{
+	padding-right: 15px;
+	}
+	#img-der{
+		padding-left: 15px;
+	}	
+}

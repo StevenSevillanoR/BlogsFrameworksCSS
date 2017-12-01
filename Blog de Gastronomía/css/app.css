@@ -1,0 +1,28 @@
+a{
+	color: blue;
+}
+.button{
+	background-color: #7cb342;
+	margin: 1px;
+}
+.button:focus, .button:hover{
+	background-color: transparent;
+	border-color: #7cb342;
+	color: black;
+}
+.button.hollow.alert{
+	border-color: blue;
+	color: blue;
+}
+.breadcrumbs a {
+    color: blue; 
+}
+.callout.secondary{
+	background-color: cyan;
+}
+.callout img{
+	height: 10em;
+}
+input:checked ~ .switch-paddle {
+    background: cyan; 
+}

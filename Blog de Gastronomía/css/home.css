@@ -1,0 +1,114 @@
+body{
+	background: url("../img/organica.jpg");
+}
+label{
+	font-weight: bold;
+	font-size: 16px;
+}
+h5.fecha{
+	color: white;
+}
+.contenedor{
+	background-color: #b2dfdb;
+	opacity: 0.9;
+}
+.encabezado{
+	border-radius: 5px;
+}
+.contenedor-izq{
+	background-color: #fff !important;
+	border-radius: 5px;
+}
+.contenedor-der{
+	background-color: #fff !important;
+	border-radius: 5px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	margin-bottom: 8px;
+}
+.izquierda{
+	padding-bottom: 8px;
+}
+.derecha{
+	
+}
+.contenedor-navegacion{
+	padding-left: 0px;
+	padding-right: 0px; 
+}
+.eslogan{
+	margin-top: 10px;
+	margin-bottom: 10px; 
+	border-right-width: thin;
+	border-right-style: solid;
+	border-color: gray;
+}
+.buscador{
+	padding-top: 10px;
+	opacity: 0.95;
+}
+.img-buscar{
+	width: 100%;
+	text-align: center;
+	padding-top: 10px !important;
+	padding: 0px;
+	height: 38px;
+}
+.favoritos{
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+.img-favoritos{
+	padding-left: 2px;
+	padding-right: 2px;
+}
+hr{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.img-contenido{
+	width: 100%;
+}
+.comentario{
+	margin-bottom: 0px;
+}
+#comentarios{
+	font-size: 16px;
+	font-weight: 100;
+}
+.img-comentarios{
+	padding-top: 5%;
+}
+.comentarios{
+	border-width: thin;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: gray;
+	margin-bottom: 5px;
+}
+.contenedor-comentario{
+	text-align: center;
+}
+p.comentario{
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+@media(max-width: 639px){
+	.img-comentarios{
+		width: 50px !important;
+		padding-top: 10% !important;
+	}
+	.contenedor-comentario{
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	.derecha{
+		padding-top: 8px;
+	}
+}
+@media(min-width: 640px){
+	.img-comentarios{
+		width: 60px;
+		padding-top: 5%;
+	}
+}
